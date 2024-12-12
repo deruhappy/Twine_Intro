@@ -1,0 +1,261 @@
+:: StoryTitle
+Twine_Intro
+
+
+:: StoryData
+{
+  "ifid": "064e310e-0261-4570-aba1-89fb428448ca",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Willkommen",
+  "zoom": 1
+}
+
+
+:: Erzähl mir mehr! {"position":"100,150","size":"100,100"}
+
+
+
+
+
+:: Hmpf, interessiert mich nicht {"position":"100,25","size":"100,100"}
+
+
+
+
+
+
+:: So legst du eine Geschichte an. {"position":"475,550","size":"100,100"}
+Eine Geschichte startest du mit Klick auf den (text-colour:orange)[+ New-Button]. 
+<img src= "https://felicitybanks.blog/wp-content/uploads/2024/11/screenshot-2024-11-23-at-7.50.08e280afpm.png?w=1024">
+
+Gib deiner Geschichte einen Titel (den kannst du später auch wieder ändern). 
+
+<a class="custom-button"> [[Das ist einfach. Bitte weiter!->weiter]] </a>
+
+
+:: Tolles Tool. Wo kann ich mehr erfahren? {"position":"475,925","size":"100,100"}
+### <a href="https://ebildungslabor.github.io/twinetutorial/" target="_blank">Online-Tutorial vom eBildungslabor.de</a>
+
+### <a href="https://www.storiesinderschule.ch/schule.html" target="_blank">storiesinderschule.ch von der PH Bern</a>
+
+###<a href="https://zembiblog.ch/twine/" target="_blank">Interaktives Storytelling mit Twine - eine Heldenreise von  ZEMBI Zentrum Medienbildung und Informatik, PH Luzern
+</a>
+
+Ausserdem findest du auf Youtube viele Erklärvideos.
+
+#Tschüss $name
+
+Viel Spass beim Stöbern!
+
+
+:: Willkommen {"position":"650,25","size":"100,100"}
+(set: $name to (prompt: "Wie lautet dein Name?", ""))
+###Herzlich willkommen $name
+Schön, dass du da bist!
+
+(live: 1s)[
+  (goto: "Willkommen2")]
+
+
+
+
+:: Willkommen2 {"position":"800,125","size":"100,100"}
+Das ist ein Beispiel für
+##Twine
+Mit diesem Tool kannst du 
+* Clickstories schreiben, 
+* Lerninhalte aufbereiten
+* und vieles mehr. 
+Deiner Fantasie sind keine Grenzen gesetzt!
+Viel Spass!
+
+<a class="custom-button"> [[Los->twine]] </a>
+
+
+:: ZuTwine {"position":"325,550","size":"100,100"}
+Eine interaktive Geschichte erstellst du mit dem Tool Twine direkt im Browser.
+###Öffne die Website <a href="https://twinery.org" target="_blank" class="external-link-button">twinery.org</a>
+<a href="https://twinery.org" target="_blank"></a>
+Klicke auf (text-colour:orange)[Use in your browser]
+<div class="center-container">
+  <img src="https://felicitybanks.blog/wp-content/uploads/2024/11/screenshot-2024-11-23-at-7.47.26e280afpm.png" 
+       allowfullscreen></div>
+<a class="custom-button"> [[Also weiter geht's!->So legst du eine Geschichte an.]] </a>
+
+
+:: keininteresse {"position":"950,300","size":"100,100"}
+<iframe src="https://giphy.com/embed/3BMPX5FXONkjRsdnFj" width="480" height="319" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+Okay
+## $name
+
+Ich gebe auf. Du kannst das Fenster schliessen und deiner Wege geh'n.
+
+
+:: minitutorial {"position":"450,425","size":"100,100"}
+Nele vom eBildungslabor erklärt dir Twine in unter zwei Minuten
+<iframe src="https://www.youtube.com/embed/taObPAV7AFc" title="1. Was ist Twine und wie kann ich es nutzen?" 
+        allowfullscreen></iframe>
+        
+<a class="custom-button"> [[weiter->ZuTwine]] </a>
+
+        
+
+
+:: sonstiges {"position":"475,800","size":"100,100"}
+Innerhalb von Twine kannst du 
+* Audiodateien, 
+* Videos, 
+* h5p 
+* und weitere Dateien einbetten.
+
+Wie zum Beispiel GIF's
+
+<iframe src="https://giphy.com/embed/jVrfpWXfkH2NejQBj4" width="480" height="322" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<a class="custom-button"> [[Tolles Tool. Wo kann ich mehr erfahren?]]</a>
+
+
+
+
+
+:: twine {"position":"650,175","size":"100,100"}
+=|=
+<img src="https://sm.pcmag.com/t/pcmag_uk/review/t/twine/twine_pzu7.3840.jpg" width="480" height="319" style="" frameBorder="0" class="giphy-embed" allowFullScreen></>
+=|=
+<iframe src="https://giphy.com/embed/28hCKJUDdDKtCjJCNm" width="480" height="319" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+|==|
+
+Twine ist das englische Wort für „Garn“ – und das beschreibt dieses Tool sehr treffend. Mit Twine lassen sich Geschichten weben, alles was es dafür braucht, ist Fantasie. Die kostenlose Open-Source-Software ermöglicht die Entwicklung von interaktiven Erzählstrukturen in Form von klickbaren Text Adventures, ohne jegliche Programmierkenntnisse zu erfordern. In diesem Sinne kann man Twine als ein Medium verstehen, das in der Arbeit mit Jugendlichen einen spannenden Transfer von Schrift in den digitalen Raum ermöglicht, wobei die thematische Bandbreite sich unabhängig von Schulfächern bewegt. Der Kreativität sind beim Einsatz kaum Grenzen gesetzt. (Quelle digital.bildung)
+
+<a class="custom-button"> [[Erzähl mir mehr! ->minitutorial]] </a>
+
+<a class="custom-button">[[Hmpf, interessiert mich nicht ->keininteresse]]</a>
+
+
+
+:: weiter {"position":"462.5,675","size":"100,100"}
+Inhalte verpackst du in so genannte Absätze. Jedem Absatz gibst du eine Bezeichnung. Über die Bezeichnung kannst du ihn verlinken. 
+
+<img src= "https://kantel.github.io/posts/2023082703_chapbook_wunderland_0/images/chapbooktwinev00-b.jpg">
+
+Und von jedem Absatz aus, kannst du so viele neue Links setzen, wie du möchtest. Du musst sie bis jetzt noch gar nicht erstellt haben. 
+
+<img src= "https://freight.cargo.site/w/1010/q/94/i/0c896d7f93d5b18e6e67c06048e4df6b71e309f03961f6468d6ccb2de7fec916/links.JPG">
+
+<a class="custom-button"> [[Was kann man sonst noch in ein Twine verpacken?->sonstiges]]</a>
+
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Special+Roboto=swap');
+
+body {
+	background-image: url('https://img.freepik.com/fotos-kostenlos/abstrakter-strukturierter-hintergrund_1258-30525.jpg?ga=GA1.1.1376809683.1697728181&semt=ais_hybrid');
+	background-size: cover;
+	background-repeat: repeat;
+  font-size: 1.4em;
+}
+
+tw-story {
+	background-color: rgba(255,255,255,0.70);
+	padding: 5%;
+	width: 75%;
+	margin: auto;
+font-family: 'Roboto', '';
+	color: black;
+ 
+}
+tw-passage {
+  font-size: 0.8em; /* Schriftgröße anpassen: 1em = Standardgröße
+  line-height: 0.8; /* Optional: Zeilenhöhe für bessere Lesbarkeit */
+}
+
+
+tw-sidebar {display:none}
+
+tw-link, .enchantment-link {
+	font-weight: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #abdbe3;
+	
+}
+/* Styling für Buttons */
+.custom-button {
+  background-color: #154c79; /* Hintergrundfarbe */
+  color: #abdbe3; /* Schriftfarbe */
+  border: none; /* Kein Rahmen */
+  border-radius: 12px; /* Abgerundete Ecken */
+  padding: 10px 20px; /* Innenabstand für Text */
+  font-size: 0.8em; /* Schriftgröße anpassen: 1em = Standardgröße#/
+  font-family: Arial, sans-serif; /* Schriftart */
+  text-decoration: none; /* Keine Unterstreichung */
+  display: inline-block; /* Anpassung an Textlänge */
+  cursor: pointer; /* Hand-Cursor bei Hover */
+  padding: 25px 35px; /* Vergrößert das klickbare Feld */
+  
+}
+
+.custom-button:hover {
+  background-color: #1a5d99; /* Helleres Blau bei Hover */
+  
+  /* Button für externe Links */
+.external-link-button {
+  background-color: #bea925; /* Hintergrundfarbe */
+  color: white; /* Schriftfarbe */
+  border: none; /* Kein Rahmen */
+  border-radius: 12px; /* Abgerundete Ecken */
+  padding: 10px 20px; /* Innenabstand für den Text */
+  font-size: 16px; /* Schriftgröße */
+  font-family: Arial, sans-serif; /* Schriftart */
+  text-decoration: none; /* Keine Unterstreichung */
+  display: inline-block; /* Macht den Button anpassbar */
+  cursor: pointer; /* Hand-Cursor bei Hover */
+  text-align: center; /* Text zentrieren */
+}
+
+.external-link-button:hover {
+  background-color: #9f7c10; /* Helleres Gold bei Hover */
+}
+
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Abstand zwischen den Spalten */
+  height: auto; /* Verhindert, dass der Container zu hoch ist */
+  margin-top: 10px; /* Weniger Abstand von oben */
+  margin-bottom: 10px; /* Weniger Abstand nach unten */
+}
+
+.column {
+  flex: 1 1 auto;
+  max-width: 480px;
+  text-align: center;
+}
+.center-container {
+  display: flex; /* Aktiviert Flexbox */
+  justify-content: center; /* Zentriert horizontal */
+  align-items: center; /* Zentriert vertikal */
+  flex-direction: column; /* Stapelt die Elemente untereinander */
+  gap: 10px; /* Optional: Abstand zwischen den Elementen */
+  margin: auto; /* Zentriert den Container im Inhaltsbereich */
+  text-align: center; /* Zentriert Text oder eingebetteten Inhalt */
+}
+
+.center-container img,
+.center-container iframe {
+  max-width: 100%; /* Sorgt dafür, dass das Bild/Video nicht den Container sprengt */
+  height: auto; /* Beibehaltung des Seitenverhältnisses */
+}
+iframe {
+  max-width: 1000px; /* Maximale Breite von 1000px */
+  width: 100%; /* Passt die Breite an den Container an */
+  aspect-ratio: 16 / 9; /* Standard-Seitenverhältnis für Videos */
+  height: auto; /* Automatische Höhe basierend auf dem Seitenverhältnis */
+  display: block; /* Block-Element für bessere Kontrolle */
+  margin: 0 auto; /* Zentriert das iframe horizontal */
+  border: none; /* Entfernt den Rahmen */
+}
